@@ -74,8 +74,8 @@ static inline GtkCheckButton* to_GtkCheckButton(void* obj) { return GTK_CHECK_BU
 static inline GtkRadioButton* to_GtkRadioButton(void* obj) { return GTK_RADIO_BUTTON(obj); }
 static inline GtkSwitch* to_GtkSwitch(void* obj) { return GTK_SWITCH(obj); }
 static inline GtkEntryBuffer* to_GtkEntryBuffer(void* obj) { return GTK_ENTRY_BUFFER(obj); }
-static inline GtkEntry* to_GtkEntry(void* obj) { return GTK_ENTRY(obj); }
 static inline GtkEntryCompletion* to_GtkEntryCompletion(void* obj) { return GTK_ENTRY_COMPLETION(obj); }
+static inline GtkEntry* to_GtkEntry(void* obj) { return GTK_ENTRY(obj); }
 static inline GtkScale* to_GtkScale(void* obj) { return GTK_SCALE(obj); }
 static inline GtkSpinButton* to_GtkSpinButton(void* obj) { return GTK_SPIN_BUTTON(obj); }
 static inline GtkDialog* to_GtkDialog(void* obj) { return GTK_DIALOG(obj); }
@@ -389,8 +389,10 @@ import "C"
 import "unsafe"
 import "runtime"
 import "fmt"
-import "github.com/norisatir/go-gtk3/gobject"
-import g "github.com/norisatir/go-gtk3/gobject"
+import "github.com/pauldub/go-gtk3/gobject"
+//import "github.com/norisatir/go-gtk3/gobject"
+import g "github.com/pauldub/go-gtk3/gobject"
+//import g "github.com/norisatir/go-gtk3/gobject"
 import "github.com/norisatir/go-gtk3/gdkpixbuf"
 import "github.com/norisatir/go-gtk3/gdk3"
 import "github.com/norisatir/go-gtk3/glib"
