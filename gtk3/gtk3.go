@@ -393,10 +393,10 @@ import "github.com/pauldub/go-gtk3/gobject"
 //import "github.com/norisatir/go-gtk3/gobject"
 import g "github.com/pauldub/go-gtk3/gobject"
 //import g "github.com/norisatir/go-gtk3/gobject"
-import "github.com/norisatir/go-gtk3/gdkpixbuf"
-import "github.com/norisatir/go-gtk3/gdk3"
-import "github.com/norisatir/go-gtk3/glib"
-import "github.com/norisatir/go-gtk3/pango"
+import "github.com/pauldub/go-gtk3/gdkpixbuf"
+import "github.com/pauldub/go-gtk3/gdk3"
+import "github.com/pauldub/go-gtk3/glib"
+import "github.com/pauldub/go-gtk3/pango"
 
 // General types and functions {{{
 

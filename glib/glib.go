@@ -32,7 +32,7 @@ import "unsafe"
 import "runtime"
 
 //import "reflect"
-import "github.com/norisatir/go-gtk3/gobject"
+import "github.com/pauldub/go-gtk3/gobject"
 
 type ListClosure func(unsafe.Pointer)
 type ConverterFunc func(unsafe.Pointer) interface{}
